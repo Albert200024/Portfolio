@@ -3,7 +3,7 @@ import './contact.css'
 //image
 import contactImg from'../../assets/shake.svg'
 
-const Contact = () => {
+const Contacts = () => {
   const [message, setMessage] = useState(false)
   const handleSubmit = (e) => {
         e.preventDefault();
@@ -27,4 +27,4 @@ const Contact = () => {
   );
 };
 
-export default Contact
+export default Contacts
