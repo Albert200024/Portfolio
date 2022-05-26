@@ -8,7 +8,7 @@ import Intro from './Component/intro/Intro';
 import Portfolio from './Component/Portfolio/Portfolio';
 import Works from './Component/works/Works';
 import Testimonials from './Component/testemonials/Testemonials';
-import Contacts from './Component/contact/Contact';
+import Contact from './Component/contact/Contact';
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false) 
@@ -22,7 +22,7 @@ function App() {
              <Portfolio/>
              <Works/>
              <Testimonials/>
-             <Contacts/>
+             <Contact/>
          </div>
       </div>
   );
