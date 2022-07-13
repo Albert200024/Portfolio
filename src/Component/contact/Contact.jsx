@@ -3,7 +3,7 @@ import './contact.css'
 //image
 import contactImg from'../../assets/shake.svg'
 
-const Contacts = () => {
+const Contact = () => {
   const [message, setMessage] = useState(false)
   const handleSubmit = (e) => {
         e.preventDefault();
